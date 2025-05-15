@@ -3,9 +3,9 @@
 def conversation():
     print("Welcome to my conversation program")
     print()
-
+    print('Do you like  cycling?  Answer yes or  no')
     # combine the next two lines into one command.
-    print("Do you like cycling? Answer yes or no")
+
     answer = input()
 
     # chenge this so that the user can enter YES as well.
@@ -15,6 +15,7 @@ def conversation():
         print("Perhaps you like some other sport. ")
     
     print("Goodbye")
+conversation()
 
 # Add command here to run the function
 

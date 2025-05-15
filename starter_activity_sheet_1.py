@@ -1,16 +1,16 @@
 # starter program lesson 1
 
 # change to your name.
-name = "Sum Gai"
+name = input("What is your name? ")
 print("We want to know if you like progamming!")
 print()
 # combine the next 2 lines into one commeand
-print("Do you like programming " + name + "?")
-answer = input()
+
+answer = input(f"Do you like programming  " + name + "? ")
 
 # change to an f string
-print("Great! You said " + answer + "!")
+print(f"Great! You said {answer}!")
 
-print("Let's learn some Python today.")
+print(f"Let's learn some Python today.")
 
 
