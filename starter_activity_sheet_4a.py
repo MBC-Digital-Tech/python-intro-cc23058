@@ -13,7 +13,7 @@ def mystery():
     begin_fill()
     for _ in range(3):
         forward(100)
-        right(120)
+        right(90)
     end_fill()
     done()
 
