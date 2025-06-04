@@ -11,14 +11,9 @@ from turtle import *
 def mystery():
     color('green', 'red')
     begin_fill()
-    forward (100) 
-    right (90)
-    forward (100) 
-    right (90) 
-    forward (100) 
-    right (90) 
-    forward (100)
-    right (90)
+    for _ in range(3):
+        forward(100)
+        right(90)
     end_fill()
     done()
 
